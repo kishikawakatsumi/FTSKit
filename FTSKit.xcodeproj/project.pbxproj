@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14B8FF171368C9FE0069A1F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14B8FF161368C9FE0069A1F3 /* UIKit.framework */; };
+		14B8FF191368C9FE0069A1F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14B8FF181368C9FE0069A1F3 /* Foundation.framework */; };
+		14B8FF1B1368C9FE0069A1F3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14B8FF1A1368C9FE0069A1F3 /* CoreGraphics.framework */; };
+		14B8FF211368C9FE0069A1F3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 14B8FF1F1368C9FE0069A1F3 /* InfoPlist.strings */; };
+		14B8FF241368C9FE0069A1F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B8FF231368C9FE0069A1F3 /* main.m */; };
+		14B8FF271368C9FE0069A1F3 /* FTSKitAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B8FF261368C9FE0069A1F3 /* FTSKitAppDelegate.m */; };
+		14B8FF2A1368C9FE0069A1F3 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14B8FF281368C9FE0069A1F3 /* MainWindow.xib */; };
+		14B8FF2D1368C9FF0069A1F3 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B8FF2C1368C9FF0069A1F3 /* RootViewController.m */; };
+		14B8FF301368C9FF0069A1F3 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14B8FF2E1368C9FF0069A1F3 /* RootViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		14B8FF121368C9FE0069A1F3 /* FTSKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FTSKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14B8FF161368C9FE0069A1F3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		14B8FF181368C9FE0069A1F3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		14B8FF1A1368C9FE0069A1F3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		14B8FF1E1368C9FE0069A1F3 /* FTSKit-Info.plist */ = {isa = PBXFileReference; path = "FTSKit-Info.plist"; sourceTree = "<group>"; };
+		14B8FF201368C9FE0069A1F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		14B8FF221368C9FE0069A1F3 /* FTSKit-Prefix.pch */ = {isa = PBXFileReference; path = "FTSKit-Prefix.pch"; sourceTree = "<group>"; };
+		14B8FF231368C9FE0069A1F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		14B8FF251368C9FE0069A1F3 /* FTSKitAppDelegate.h */ = {isa = PBXFileReference; path = FTSKitAppDelegate.h; sourceTree = "<group>"; };
+		14B8FF261368C9FE0069A1F3 /* FTSKitAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTSKitAppDelegate.m; sourceTree = "<group>"; };
+		14B8FF291368C9FE0069A1F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		14B8FF2B1368C9FE0069A1F3 /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		14B8FF2C1368C9FF0069A1F3 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		14B8FF2F1368C9FF0069A1F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14B8FF0F1368C9FE0069A1F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14B8FF171368C9FE0069A1F3 /* UIKit.framework in Frameworks */,
+				14B8FF191368C9FE0069A1F3 /* Foundation.framework in Frameworks */,
+				14B8FF1B1368C9FE0069A1F3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14B8FF071368C9FE0069A1F3 = {
+			isa = PBXGroup;
+			children = (
+				14B8FF1C1368C9FE0069A1F3 /* FTSKit */,
+				14B8FF151368C9FE0069A1F3 /* Frameworks */,
+				14B8FF131368C9FE0069A1F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14B8FF131368C9FE0069A1F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14B8FF121368C9FE0069A1F3 /* FTSKit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14B8FF151368C9FE0069A1F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14B8FF161368C9FE0069A1F3 /* UIKit.framework */,
+				14B8FF181368C9FE0069A1F3 /* Foundation.framework */,
+				14B8FF1A1368C9FE0069A1F3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		14B8FF1C1368C9FE0069A1F3 /* FTSKit */ = {
+			isa = PBXGroup;
+			children = (
+				14B8FF251368C9FE0069A1F3 /* FTSKitAppDelegate.h */,
+				14B8FF261368C9FE0069A1F3 /* FTSKitAppDelegate.m */,
+				14B8FF281368C9FE0069A1F3 /* MainWindow.xib */,
+				14B8FF2B1368C9FE0069A1F3 /* RootViewController.h */,
+				14B8FF2C1368C9FF0069A1F3 /* RootViewController.m */,
+				14B8FF2E1368C9FF0069A1F3 /* RootViewController.xib */,
+				14B8FF1D1368C9FE0069A1F3 /* Supporting Files */,
+			);
+			path = FTSKit;
+			sourceTree = "<group>";
+		};
+		14B8FF1D1368C9FE0069A1F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				14B8FF1E1368C9FE0069A1F3 /* FTSKit-Info.plist */,
+				14B8FF1F1368C9FE0069A1F3 /* InfoPlist.strings */,
+				14B8FF221368C9FE0069A1F3 /* FTSKit-Prefix.pch */,
+				14B8FF231368C9FE0069A1F3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14B8FF111368C9FE0069A1F3 /* FTSKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14B8FF331368C9FF0069A1F3 /* Build configuration list for PBXNativeTarget "FTSKit" */;
+			buildPhases = (
+				14B8FF0E1368C9FE0069A1F3 /* Sources */,
+				14B8FF0F1368C9FE0069A1F3 /* Frameworks */,
+				14B8FF101368C9FE0069A1F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FTSKit;
+			productName = FTSKit;
+			productReference = 14B8FF121368C9FE0069A1F3 /* FTSKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14B8FF091368C9FE0069A1F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Kishikawa Katsumi";
+			};
+			buildConfigurationList = 14B8FF0C1368C9FE0069A1F3 /* Build configuration list for PBXProject "FTSKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 14B8FF071368C9FE0069A1F3;
+			productRefGroup = 14B8FF131368C9FE0069A1F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14B8FF111368C9FE0069A1F3 /* FTSKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14B8FF101368C9FE0069A1F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14B8FF211368C9FE0069A1F3 /* InfoPlist.strings in Resources */,
+				14B8FF2A1368C9FE0069A1F3 /* MainWindow.xib in Resources */,
+				14B8FF301368C9FF0069A1F3 /* RootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14B8FF0E1368C9FE0069A1F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14B8FF241368C9FE0069A1F3 /* main.m in Sources */,
+				14B8FF271368C9FE0069A1F3 /* FTSKitAppDelegate.m in Sources */,
+				14B8FF2D1368C9FF0069A1F3 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		14B8FF1F1368C9FE0069A1F3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14B8FF201368C9FE0069A1F3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		14B8FF281368C9FE0069A1F3 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14B8FF291368C9FE0069A1F3 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		14B8FF2E1368C9FF0069A1F3 /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14B8FF2F1368C9FF0069A1F3 /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14B8FF311368C9FF0069A1F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		14B8FF321368C9FF0069A1F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		14B8FF341368C9FF0069A1F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FTSKit/FTSKit-Prefix.pch";
+				INFOPLIST_FILE = "FTSKit/FTSKit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		14B8FF351368C9FF0069A1F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FTSKit/FTSKit-Prefix.pch";
+				INFOPLIST_FILE = "FTSKit/FTSKit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14B8FF0C1368C9FE0069A1F3 /* Build configuration list for PBXProject "FTSKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14B8FF311368C9FF0069A1F3 /* Debug */,
+				14B8FF321368C9FF0069A1F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14B8FF331368C9FF0069A1F3 /* Build configuration list for PBXNativeTarget "FTSKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14B8FF341368C9FF0069A1F3 /* Debug */,
+				14B8FF351368C9FF0069A1F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14B8FF091368C9FE0069A1F3 /* Project object */;
+}
