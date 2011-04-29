@@ -1,0 +1,25 @@
+FTSKit
+
+Full Text Search Library for iOS SDK.
+
+Details
+
+See Also...
+BNRPersistence
+https://github.com/hillegass/BNRPersistence
+
+* Author 
+KISHIKAWA Katsumi
+http://kishikawaKatsumi.com/ (in Japanese)
+
+* License
+The new BSD license
+
+* 3rd parties
+Tokyo Cabinet
+-----------------
+http://fallabs.com/tokyocabinet/
+
+Tokyo Dystopia
+-----------------
+http://fallabs.com/tokyodystopia/

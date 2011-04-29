@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1442CF22135DDDA10005A9B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1442CF21135DDDA10005A9B8 /* Foundation.framework */; };
+		1442CF3C135DDE8C0005A9B8 /* md5.c in Sources */ = {isa = PBXBuildFile; fileRef = 1442CF2C135DDE8C0005A9B8 /* md5.c */; };
+		1442CF3D135DDE8C0005A9B8 /* md5.h in Headers */ = {isa = PBXBuildFile; fileRef = 1442CF2D135DDE8C0005A9B8 /* md5.h */; };
+		1442CF3E135DDE8C0005A9B8 /* myconf.c in Sources */ = {isa = PBXBuildFile; fileRef = 1442CF2E135DDE8C0005A9B8 /* myconf.c */; };
+		1442CF3F135DDE8C0005A9B8 /* myconf.h in Headers */ = {isa = PBXBuildFile; fileRef = 1442CF2F135DDE8C0005A9B8 /* myconf.h */; };
+		1442CF40135DDE8C0005A9B8 /* tcadb.c in Sources */ = {isa = PBXBuildFile; fileRef = 1442CF30135DDE8C0005A9B8 /* tcadb.c */; };
+		1442CF41135DDE8C0005A9B8 /* tcadb.h in Headers */ = {isa = PBXBuildFile; fileRef = 1442CF31135DDE8C0005A9B8 /* tcadb.h */; };
+		1442CF42135DDE8C0005A9B8 /* tcbdb.c in Sources */ = {isa = PBXBuildFile; fileRef = 1442CF32135DDE8C0005A9B8 /* tcbdb.c */; };
+		1442CF43135DDE8C0005A9B8 /* tcbdb.h in Headers */ = {isa = PBXBuildFile; fileRef = 1442CF33135DDE8C0005A9B8 /* tcbdb.h */; };
+		1442CF44135DDE8C0005A9B8 /* tcfdb.c in Sources */ = {isa = PBXBuildFile; fileRef = 1442CF34135DDE8C0005A9B8 /* tcfdb.c */; };
+		1442CF45135DDE8C0005A9B8 /* tcfdb.h in Headers */ = {isa = PBXBuildFile; fileRef = 1442CF35135DDE8C0005A9B8 /* tcfdb.h */; };
+		1442CF46135DDE8C0005A9B8 /* tchdb.c in Sources */ = {isa = PBXBuildFile; fileRef = 1442CF36135DDE8C0005A9B8 /* tchdb.c */; };
+		1442CF47135DDE8C0005A9B8 /* tchdb.h in Headers */ = {isa = PBXBuildFile; fileRef = 1442CF37135DDE8C0005A9B8 /* tchdb.h */; };
+		1442CF48135DDE8C0005A9B8 /* tctdb.c in Sources */ = {isa = PBXBuildFile; fileRef = 1442CF38135DDE8C0005A9B8 /* tctdb.c */; };
+		1442CF49135DDE8C0005A9B8 /* tctdb.h in Headers */ = {isa = PBXBuildFile; fileRef = 1442CF39135DDE8C0005A9B8 /* tctdb.h */; };
+		1442CF4A135DDE8C0005A9B8 /* tcutil.c in Sources */ = {isa = PBXBuildFile; fileRef = 1442CF3A135DDE8C0005A9B8 /* tcutil.c */; };
+		1442CF4B135DDE8C0005A9B8 /* tcutil.h in Headers */ = {isa = PBXBuildFile; fileRef = 1442CF3B135DDE8C0005A9B8 /* tcutil.h */; };
+		1442CF57135DDEE70005A9B8 /* dystopia.c in Sources */ = {isa = PBXBuildFile; fileRef = 1442CF4D135DDEE70005A9B8 /* dystopia.c */; };
+		1442CF58135DDEE70005A9B8 /* dystopia.h in Headers */ = {isa = PBXBuildFile; fileRef = 1442CF4E135DDEE70005A9B8 /* dystopia.h */; };
+		1442CF59135DDEE70005A9B8 /* laputa.c in Sources */ = {isa = PBXBuildFile; fileRef = 1442CF4F135DDEE70005A9B8 /* laputa.c */; };
+		1442CF5A135DDEE70005A9B8 /* laputa.h in Headers */ = {isa = PBXBuildFile; fileRef = 1442CF50135DDEE70005A9B8 /* laputa.h */; };
+		1442CF5B135DDEE70005A9B8 /* myconf.c in Sources */ = {isa = PBXBuildFile; fileRef = 1442CF51135DDEE70005A9B8 /* myconf.c */; };
+		1442CF5C135DDEE70005A9B8 /* myconf.h in Headers */ = {isa = PBXBuildFile; fileRef = 1442CF52135DDEE70005A9B8 /* myconf.h */; };
+		1442CF5D135DDEE70005A9B8 /* tcqdb.c in Sources */ = {isa = PBXBuildFile; fileRef = 1442CF53135DDEE70005A9B8 /* tcqdb.c */; };
+		1442CF5E135DDEE70005A9B8 /* tcqdb.h in Headers */ = {isa = PBXBuildFile; fileRef = 1442CF54135DDEE70005A9B8 /* tcqdb.h */; };
+		1442CF5F135DDEE70005A9B8 /* tcwdb.c in Sources */ = {isa = PBXBuildFile; fileRef = 1442CF55135DDEE70005A9B8 /* tcwdb.c */; };
+		1442CF60135DDEE70005A9B8 /* tcwdb.h in Headers */ = {isa = PBXBuildFile; fileRef = 1442CF56135DDEE70005A9B8 /* tcwdb.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1442CF1E135DDDA10005A9B8 /* libTokyoDystopia.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libTokyoDystopia.a; path = "/Users/katsumi/Documents/Xcode Projects/TokyoDystopia/build/Release-iphoneos/libTokyoDystopia.a"; sourceTree = "<absolute>"; };
+		1442CF21135DDDA10005A9B8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1442CF25135DDDA10005A9B8 /* TokyoDystopia-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TokyoDystopia-Prefix.pch"; sourceTree = "<group>"; };
+		1442CF2C135DDE8C0005A9B8 /* md5.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = md5.c; sourceTree = "<group>"; };
+		1442CF2D135DDE8C0005A9B8 /* md5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = md5.h; sourceTree = "<group>"; };
+		1442CF2E135DDE8C0005A9B8 /* myconf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = myconf.c; sourceTree = "<group>"; };
+		1442CF2F135DDE8C0005A9B8 /* myconf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myconf.h; sourceTree = "<group>"; };
+		1442CF30135DDE8C0005A9B8 /* tcadb.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tcadb.c; sourceTree = "<group>"; };
+		1442CF31135DDE8C0005A9B8 /* tcadb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tcadb.h; sourceTree = "<group>"; };
+		1442CF32135DDE8C0005A9B8 /* tcbdb.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tcbdb.c; sourceTree = "<group>"; };
+		1442CF33135DDE8C0005A9B8 /* tcbdb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tcbdb.h; sourceTree = "<group>"; };
+		1442CF34135DDE8C0005A9B8 /* tcfdb.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tcfdb.c; sourceTree = "<group>"; };
+		1442CF35135DDE8C0005A9B8 /* tcfdb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tcfdb.h; sourceTree = "<group>"; };
+		1442CF36135DDE8C0005A9B8 /* tchdb.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tchdb.c; sourceTree = "<group>"; };
+		1442CF37135DDE8C0005A9B8 /* tchdb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tchdb.h; sourceTree = "<group>"; };
+		1442CF38135DDE8C0005A9B8 /* tctdb.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tctdb.c; sourceTree = "<group>"; };
+		1442CF39135DDE8C0005A9B8 /* tctdb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tctdb.h; sourceTree = "<group>"; };
+		1442CF3A135DDE8C0005A9B8 /* tcutil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tcutil.c; sourceTree = "<group>"; };
+		1442CF3B135DDE8C0005A9B8 /* tcutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tcutil.h; sourceTree = "<group>"; };
+		1442CF4D135DDEE70005A9B8 /* dystopia.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dystopia.c; sourceTree = "<group>"; };
+		1442CF4E135DDEE70005A9B8 /* dystopia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dystopia.h; sourceTree = "<group>"; };
+		1442CF4F135DDEE70005A9B8 /* laputa.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = laputa.c; sourceTree = "<group>"; };
+		1442CF50135DDEE70005A9B8 /* laputa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = laputa.h; sourceTree = "<group>"; };
+		1442CF51135DDEE70005A9B8 /* myconf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = myconf.c; sourceTree = "<group>"; };
+		1442CF52135DDEE70005A9B8 /* myconf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myconf.h; sourceTree = "<group>"; };
+		1442CF53135DDEE70005A9B8 /* tcqdb.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tcqdb.c; sourceTree = "<group>"; };
+		1442CF54135DDEE70005A9B8 /* tcqdb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tcqdb.h; sourceTree = "<group>"; };
+		1442CF55135DDEE70005A9B8 /* tcwdb.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tcwdb.c; sourceTree = "<group>"; };
+		1442CF56135DDEE70005A9B8 /* tcwdb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tcwdb.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1442CF1B135DDDA10005A9B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1442CF22135DDDA10005A9B8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1442CF13135DDDA10005A9B8 = {
+			isa = PBXGroup;
+			children = (
+				1442CF23135DDDA10005A9B8 /* TokyoDystopia */,
+				1442CF20135DDDA10005A9B8 /* Frameworks */,
+				1442CF1F135DDDA10005A9B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1442CF1F135DDDA10005A9B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1442CF20135DDDA10005A9B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1442CF21135DDDA10005A9B8 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1442CF23135DDDA10005A9B8 /* TokyoDystopia */ = {
+			isa = PBXGroup;
+			children = (
+				1442CF2B135DDE8C0005A9B8 /* TokyoCabinet */,
+				1442CF4C135DDEE70005A9B8 /* TokyoDystopia */,
+				1442CF24135DDDA10005A9B8 /* Supporting Files */,
+			);
+			path = TokyoDystopia;
+			sourceTree = "<group>";
+		};
+		1442CF24135DDDA10005A9B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1442CF25135DDDA10005A9B8 /* TokyoDystopia-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1442CF2B135DDE8C0005A9B8 /* TokyoCabinet */ = {
+			isa = PBXGroup;
+			children = (
+				1442CF2C135DDE8C0005A9B8 /* md5.c */,
+				1442CF2D135DDE8C0005A9B8 /* md5.h */,
+				1442CF2E135DDE8C0005A9B8 /* myconf.c */,
+				1442CF2F135DDE8C0005A9B8 /* myconf.h */,
+				1442CF30135DDE8C0005A9B8 /* tcadb.c */,
+				1442CF31135DDE8C0005A9B8 /* tcadb.h */,
+				1442CF32135DDE8C0005A9B8 /* tcbdb.c */,
+				1442CF33135DDE8C0005A9B8 /* tcbdb.h */,
+				1442CF34135DDE8C0005A9B8 /* tcfdb.c */,
+				1442CF35135DDE8C0005A9B8 /* tcfdb.h */,
+				1442CF36135DDE8C0005A9B8 /* tchdb.c */,
+				1442CF37135DDE8C0005A9B8 /* tchdb.h */,
+				1442CF38135DDE8C0005A9B8 /* tctdb.c */,
+				1442CF39135DDE8C0005A9B8 /* tctdb.h */,
+				1442CF3A135DDE8C0005A9B8 /* tcutil.c */,
+				1442CF3B135DDE8C0005A9B8 /* tcutil.h */,
+			);
+			path = TokyoCabinet;
+			sourceTree = "<group>";
+		};
+		1442CF4C135DDEE70005A9B8 /* TokyoDystopia */ = {
+			isa = PBXGroup;
+			children = (
+				1442CF4D135DDEE70005A9B8 /* dystopia.c */,
+				1442CF4E135DDEE70005A9B8 /* dystopia.h */,
+				1442CF4F135DDEE70005A9B8 /* laputa.c */,
+				1442CF50135DDEE70005A9B8 /* laputa.h */,
+				1442CF51135DDEE70005A9B8 /* myconf.c */,
+				1442CF52135DDEE70005A9B8 /* myconf.h */,
+				1442CF53135DDEE70005A9B8 /* tcqdb.c */,
+				1442CF54135DDEE70005A9B8 /* tcqdb.h */,
+				1442CF55135DDEE70005A9B8 /* tcwdb.c */,
+				1442CF56135DDEE70005A9B8 /* tcwdb.h */,
+			);
+			path = TokyoDystopia;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1442CF1C135DDDA10005A9B8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1442CF3D135DDE8C0005A9B8 /* md5.h in Headers */,
+				1442CF3F135DDE8C0005A9B8 /* myconf.h in Headers */,
+				1442CF41135DDE8C0005A9B8 /* tcadb.h in Headers */,
+				1442CF43135DDE8C0005A9B8 /* tcbdb.h in Headers */,
+				1442CF45135DDE8C0005A9B8 /* tcfdb.h in Headers */,
+				1442CF47135DDE8C0005A9B8 /* tchdb.h in Headers */,
+				1442CF49135DDE8C0005A9B8 /* tctdb.h in Headers */,
+				1442CF4B135DDE8C0005A9B8 /* tcutil.h in Headers */,
+				1442CF58135DDEE70005A9B8 /* dystopia.h in Headers */,
+				1442CF5A135DDEE70005A9B8 /* laputa.h in Headers */,
+				1442CF5C135DDEE70005A9B8 /* myconf.h in Headers */,
+				1442CF5E135DDEE70005A9B8 /* tcqdb.h in Headers */,
+				1442CF60135DDEE70005A9B8 /* tcwdb.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1442CF1D135DDDA10005A9B8 /* TokyoDystopia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1442CF28135DDDA10005A9B8 /* Build configuration list for PBXNativeTarget "TokyoDystopia" */;
+			buildPhases = (
+				1442CF1A135DDDA10005A9B8 /* Sources */,
+				1442CF1B135DDDA10005A9B8 /* Frameworks */,
+				1442CF1C135DDDA10005A9B8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TokyoDystopia;
+			productName = TokyoDystopia;
+			productReference = 1442CF1E135DDDA10005A9B8 /* libTokyoDystopia.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1442CF15135DDDA10005A9B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Kishikawa Katsumi";
+			};
+			buildConfigurationList = 1442CF18135DDDA10005A9B8 /* Build configuration list for PBXProject "TokyoDystopia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1442CF13135DDDA10005A9B8;
+			productRefGroup = 1442CF1F135DDDA10005A9B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1442CF1D135DDDA10005A9B8 /* TokyoDystopia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1442CF1A135DDDA10005A9B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1442CF3C135DDE8C0005A9B8 /* md5.c in Sources */,
+				1442CF3E135DDE8C0005A9B8 /* myconf.c in Sources */,
+				1442CF40135DDE8C0005A9B8 /* tcadb.c in Sources */,
+				1442CF42135DDE8C0005A9B8 /* tcbdb.c in Sources */,
+				1442CF44135DDE8C0005A9B8 /* tcfdb.c in Sources */,
+				1442CF46135DDE8C0005A9B8 /* tchdb.c in Sources */,
+				1442CF48135DDE8C0005A9B8 /* tctdb.c in Sources */,
+				1442CF4A135DDE8C0005A9B8 /* tcutil.c in Sources */,
+				1442CF57135DDEE70005A9B8 /* dystopia.c in Sources */,
+				1442CF59135DDEE70005A9B8 /* laputa.c in Sources */,
+				1442CF5B135DDEE70005A9B8 /* myconf.c in Sources */,
+				1442CF5D135DDEE70005A9B8 /* tcqdb.c in Sources */,
+				1442CF5F135DDEE70005A9B8 /* tcwdb.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1442CF26135DDDA10005A9B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1442CF27135DDDA10005A9B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		1442CF29135DDDA10005A9B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/TokyoDystopia.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TokyoDystopia/TokyoDystopia-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1442CF2A135DDDA10005A9B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/TokyoDystopia.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TokyoDystopia/TokyoDystopia-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1442CF18135DDDA10005A9B8 /* Build configuration list for PBXProject "TokyoDystopia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1442CF26135DDDA10005A9B8 /* Debug */,
+				1442CF27135DDDA10005A9B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1442CF28135DDDA10005A9B8 /* Build configuration list for PBXNativeTarget "TokyoDystopia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1442CF29135DDDA10005A9B8 /* Debug */,
+				1442CF2A135DDDA10005A9B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1442CF15135DDDA10005A9B8 /* Project object */;
+}
