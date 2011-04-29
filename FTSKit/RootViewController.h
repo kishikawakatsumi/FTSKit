@@ -7,10 +7,24 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FKSearchBar.h"
 
-@interface RootViewController : UITableViewController {
+@class FKStore;
+@class FKResultSet;
 
+@interface RootViewController : UIViewController
+<UITableViewDataSource, UITableViewDelegate, FKSearchBarDelegate> {
+    UITableView *listView;
+    
+    NSOperationQueue *queue;
+    
+    FKStore *store;
+    FKResultSet *resultSet;
 }
 
+@property (nonatomic, retain) NSOperationQueue *queue;
+
+@property (nonatomic, retain) FKStore *store;
+@property (nonatomic, retain) FKResultSet *resultSet;
 
 @end
