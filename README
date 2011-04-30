@@ -3,6 +3,8 @@ FTSKit
 Full Text Search Library for iOS SDK.
 
 Details
+Wrapper classes for Tokyo Dystopia.
+Based on BNRPersistence by Aaron Hillegass.
 
 See Also...
 BNRPersistence
